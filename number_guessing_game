@@ -1,0 +1,60 @@
+import random
+
+B = random.randint(1, 100)
+
+while True:
+    print("\n\nWelcome to the Random number Guessing Game")
+    print("Guess the number between 1 to 100")
+    print("with Five chances\n")
+    ab = int(input("Enter number : "))
+    aB = int(input("Enter number : "))
+    ac = int(input("Enter number : "))
+    aC = int(input("Enter number : "))
+    ad = int(input("Enter number : "))
+    print("\n")
+    while ab < 100:
+        if ab == B:
+            print("You got it")
+        else:
+            print("Wrong! Your Number is ", ab)
+            break
+    else:
+        print("Select the Number in Range")
+
+    while aB < 100:
+        if aB == B:
+            print("You got it")
+        else:
+            print("Wrong! Your Number is ", aB)
+            break
+    else:
+        print("Select the Number in Range")
+
+    while ac < 100:
+        if ac == B:
+            print("You got it")
+        else:
+            print("Wrong! Your Number is ", ac)
+            break
+    else:
+        print("Select the Number in Range")
+
+    while aC < 100:
+        if aC == B:
+            print("You got it")
+        else:
+            print("Wrong! Your Number is ", aC)
+            break
+    else:
+        print("Select the Number in Range")
+
+    while ad < 100:
+        if ad == B:
+            print("You got it")
+        else:
+            print(f"Wrong! Your Number is {ad}")
+            break
+    else:
+        print("Select the Number in Range")
+
+    print("The Random number was", B)
